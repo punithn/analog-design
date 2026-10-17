@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" data-theme="night">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>analogi · Design, translated for everyone who builds it</title>
+<meta name="description" content="Analogi carries one design intent across studios, makers and clients, in the language each one works in.">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('analogi-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+<symbol id="i-scope" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h10"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="m8.5 12.5 2.5 2.5 4.5-5"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><path d="M12 4v11m-4-4 4 4 4-4M5 20h14"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M10 6h10M10 12h10M10 18h10M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></symbol>
+<symbol id="i-boq" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16"/><path d="M4 10h16M10 10v10"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></symbol>
+<symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><path d="M12 5v14"/><path d="M12 5a7 7 0 0 1 0 14z" fill="currentColor"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke-dasharray="2 3"/></symbol>
+</defs></svg>
+
+<header class="rail">
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="overlay" aria-label="Open menu"><span></span><span></span></button>
+  <button class="theme" id="theme" aria-label="Switch between Paper and Night theme"><svg class="ic"><use href="#i-theme"/></svg></button>
+</header>
+
+<div class="overlay night" id="overlay" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true">
+  <div class="o-rail"><button class="menu-btn is-close" id="closeBtn" aria-label="Close menu"><span></span><span></span></button></div>
+  <nav class="o-nav"><p class="lbl">Menu</p>
+    <a href="#home">Home</a><a href="#how">How it works</a><a href="#pilot">The pilot</a><a href="#partners">Design partners</a>
+  </nav>
+  <div class="o-side">
+    <p class="lbl">Contact</p><a href="mailto:name@analogi.in">name@analogi.in</a>
+    <p class="lbl">Follow</p><a href="#">LinkedIn</a>
+  </div>
+</div>
+
+<main>
+<section class="hero" id="home" data-n="01">
+  <div class="hero-copy">
+	  	  <img src="logo-white.svg" alt="Company Logo" width="300" height="auto">
+
+    <h1 class="statement">Design, translated for everyone who builds it.</h1>
+    <p class="title">Analogi carries one design intent across studios, makers and clients, in the language each one works in.</p>
+    <div class="actions"><a class="btn" href="#partners">Become a design partner</a><a class="btn ghost" href="#pilot">See what's live</a></div>
+  </div>
+  <div class="hero-form"><div class="demo" id="demo" data-view="studio">
+    <div class="d-head"><span class="lbl">Sample project · illustrative data</span>
+      <div class="tabs" role="group" aria-label="View as">
+        <button aria-pressed="true" data-v="studio">Studio</button><button aria-pressed="false" data-v="maker">Maker</button><button aria-pressed="false" data-v="client">Client</button>
+      </div></div>
+    <div class="arch-wrap"><svg class="arch" id="arch" viewBox="0 0 560 284" role="img" aria-label="Elevation of a study nook: wardrobe, fluted wall panel, desk and skirting">
+      <defs><pattern id="hat" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V6" style="stroke:var(--form);stroke-width:.6"/></pattern></defs>
+      <path class="thin ax" d="M40 16V246M515 16V246"/><g class="thin"><circle cx="40" cy="9" r="6"/><circle cx="515" cy="9" r="6"/></g><text x="40" y="12" text-anchor="middle">1</text><text x="515" y="12" text-anchor="middle">2</text>
+      <path class="thin" d="M16 20H544"/><path class="floor" d="M16 240H544"/>
+      <g class="el" data-i="0"><rect class="fill" x="40" y="40" width="130" height="200"/><path d="M105 80V240M40 80H170M98 140v22M112 140v22"/><text class="tg" x="40" y="34"></text></g>
+      <g class="el" data-i="1"><rect x="190" y="40" width="140" height="200"/><path class="thin" id="flutes"/><text class="tg" x="190" y="34"></text></g>
+      <g class="el" data-i="2"><rect class="fill" x="345" y="150" width="170" height="8"/><path d="M352 158V240M508 158V240M440 158v26h60v-26"/><rect x="360" y="108" width="110" height="5"/><text class="tg" x="345" y="100"></text></g>
+      <g class="el" data-i="3" id="g3"><path d="M16 232H544"/><path class="thin" d="M530 262V232"/><text class="tg" x="540" y="277" text-anchor="end"></text></g>
+      <g class="thin"><path d="M40 256H170M190 256H330M345 256H515M40 252v8M170 252v8M190 252v8M330 252v8M345 252v8M515 252v8"/></g>
+      <text x="105" y="253" text-anchor="middle">1300</text><text x="260" y="253" text-anchor="middle">1400</text><text x="430" y="253" text-anchor="middle">1700</text>
+      <text id="rev" x="40" y="277"></text>
+    </svg></div>
+    <p class="d-note" id="note"></p>
+    <table class="boq"><thead><tr><th>Item</th><th class="c-ref">Drawing</th><th class="c-qty">Qty</th><th class="c-rate">Rate</th><th class="c-amt">Amount</th></tr></thead>
+      <tbody id="rows"></tbody>
+      <tfoot><tr><td class="c-item">Total</td><td class="c-ref"></td><td class="c-qty"></td><td class="c-rate"></td><td class="c-amt" id="tot"></td></tr></tfoot></table>
+    <div class="d-foot">
+      <p class="status" aria-live="polite"><svg class="ic sm"><use id="sIcon" href="#i-next"/></svg><span id="sText"></span></p>
+      <div class="d-act"><button class="btn" id="act"></button><button class="link" id="reset">Reset</button></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="sec" id="problem" data-n="02">
+  <div class="idx"><div class="idx-in"><h2 class="title">The problem</h2><p style="font-size: 28px;" class="st" >Design happens in the studio. The work happens outside it.</p></div></div>
+  <div class="body">
+    <div class="pad rv"><p class="lead">The work happens with fabricators, masons, artisans, vendors and suppliers. Each party speaks a different language.</p></div>
+    <div class="cells c3">
+      <div class="cell rv"> <img src="studio.svg"   width="90px" height="90px%" ><h3>Studios</h3><ul><li>Design</li></ul></div>
+      <div class="cell rv"><img src="makers.svg"   width="90px" height="90px%" ><h3>Makers</h3><ul><li>Clarity</li><li>Coordination</li><li>Communication</li><li>Money</li></ul></div>
+      <div class="cell rv"><img src="client.svg"   width="90px" height="90px%" ><h3>Clients</h3><ul><li>Design</li><li>Money</li><li>Protecting their interests</li></ul></div>
+    </div>
+    <div class="pad rv"><p class="lead">The studio translates between all three by hand, carrying the risk and the expectations that never show up in a render. Meaning is lost between the drawing and the site, and that's where money and trust leak.</p></div>
+  </div>
+</section>
+
+<section class="sec" id="what" data-n="03">
+  <div class="idx"><div class="idx-in"><h2 class="title">What Analogi does</h2><p style="font-size: 28px;" class="st">One design intent, translated for each stakeholder.</p></div></div>
+  <div class="body">
+    <div class="cells c3">
+      <div class="cell rv"><svg class="ic"><use href="#i-scope"/></svg><span class="lbl">Analogi gives for makers</span><p class="val">Clear scopes and quantities, not a drawing set to interpret</p></div>
+      <div class="cell rv"><svg class="ic"><use href="#i-check"/></svg><span class="lbl">Analogi gives for clients</span><p class="val">Cost and progress they can verify and sign off</p></div>
+      <div class="cell rv"><svg class="ic"><use href="#i-lock"/></svg><span class="lbl">Analogi gives for the studio</span><p class="val">A locked record of what was agreed</p></div>
+    </div>
+    <div class="pad row rv"><svg class="ic"><use href="#i-search"/></svg><p class="lead">Grounded in real project data. If it can't verify something, it says so instead of guessing.</p></div>
+  </div>
+</section>
+
+<section class="sec" id="how" data-n="04">
+  <div class="idx"><div class="idx-in"><h2 class="title">How it works</h2><p style="font-size: 28px;" class="st">Drawings go in. A costed, locked BOQ comes out.</p></div></div>
+  <div class="body steps">
+    <div class="step rv"><span class="num">01.</span><svg class="ic"><use href="#i-in"/></svg><div><h3>Drawings in</h3><p>The studio uploads its drawings.</p></div></div>
+    <div class="step rv"><span class="num">02.</span><svg class="ic"><use href="#i-list"/></svg><div><h3>Checked</h3><p>Analogi checks them for completeness and asks for what's missing.</p></div></div>
+    <div class="step rv"><span class="num">03.</span><svg class="ic"><use href="#i-boq"/></svg><div><h3>Costed</h3><p>It produces a costed BOQ from the studio's own rate card.</p></div></div>
+    <div class="step rv"><span class="num">04.</span><svg class="ic"><use href="#i-lock"/></svg><div><h3>Frozen</h3><p>Once approved, it's frozen. Any edit reopens the sign-off automatically.</p></div></div>
+  </div>
+</section>
+
+<section class="sec" id="pilot" data-n="05">
+  <div class="idx"><div class="idx-in"><h2 class="title">Built in the open</h2><p style="font-size: 28px;" class="st">Piloted live inside K&amp;Co. Design Initiatives.</p></div></div>
+  <div class="body">
+    <div class="pad rv"><p class="lead">K&amp;Co. is a Bengaluru studio. Analogi runs there on real projects and real money.</p></div>
+    <div class="cells c2">
+      <div class="cell rv"><span class="lbl">Live</span>
+        <ul class="ticks"><li><svg class="ic sm"><use href="#i-check"/></svg>Team and fee onboarding</li><li><svg class="ic sm"><use href="#i-check"/></svg>Guided drawing intake</li><li><svg class="ic sm"><use href="#i-check"/></svg>BOQ with sign-off gate</li></ul></div>
+      <!-- CONFIRM BEFORE PUBLISHING: the "Next" items below are unconfirmed -->
+      <div class="cell rv"><span class="lbl">Next</span>
+        <ul class="ticks"><li><svg class="ic sm"><use href="#i-next"/></svg>Vendor scopes</li><li><svg class="ic sm"><use href="#i-next"/></svg>Client updates</li><li><svg class="ic sm"><use href="#i-next"/></svg>Change orders</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="partners" data-n="06">
+  <div class="idx"><div class="idx-in"><h2 class="title">Design-partner programme</h2><p style="font-size: 28px;" class="st">Free access to the live system.</p></div></div>
+  <div class="body">
+    <div class="cells c2">
+      <div class="cell rv"><span class="lbl">In return</span><p class="val">Structured feedback and a say in what we build next</p></div>
+      <div class="cell rv"><span class="lbl">Cost</span><p class="val">No fee either way</p></div>
+    </div>
+    <div class="pad rv"><a class="btn" href="mailto:name@analogi.in">Become a design partner</a></div>
+  </div>
+</section>
+
+<section class="close" id="contact" data-n="07">
+  <p class="statement rv">Every project already speaks three languages. Help us build the translator.</p>
+  <div class="rv"><a class="btn" href="mailto:name@analogi.in">Become a design partner</a></div>
+</section>
+</main>
+
+<footer class="foot">
+  <span class="wm"> <img src="logo-white.svg" alt="Company Logo" width="200" height="auto"></span>
+  <span>Piloted live at K&amp;Co. Design Initiatives, Bengaluru</span>
+  <span><a href="https://analogi.in">analogi.in</a> · <a href="mailto:name@analogi.in">name@analogi.in</a> · <a href="#">LinkedIn</a></span>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
